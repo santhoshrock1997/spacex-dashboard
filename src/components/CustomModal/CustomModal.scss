@@ -1,0 +1,45 @@
+.modalWrapper {
+  .headingDiv {
+    display: flex;
+    margin-bottom: 10px;
+    img {
+      width: 12%;
+      height: 12%;
+      margin-right: 1rem;
+    }
+
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      margin-right: 1.2rem;
+      font-weight: 400;
+    }
+
+    .paraHeading {
+      margin: 0;
+      margin-bottom: 0.2rem;
+      font-size: 12px;
+      color: grey;
+    }
+  }
+  .details {
+    font-size: 12px;
+    line-height: 1.5rem;
+    color: grey;
+    font-weight: 500;
+    word-spacing: 2px;
+    display: inline;
+  }
+
+  .infoDiv {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    p {
+      margin-top: 0.8rem;
+      margin-bottom: 0.8rem;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    border-bottom: 1px solid rgba(224, 224, 224, 0.8);
+  }
+}

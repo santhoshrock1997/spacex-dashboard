@@ -1,0 +1,35 @@
+.tableContainer {
+  width: 75% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  height: 70vh;
+
+  .loader {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+  }
+
+  .noFilter {
+    position: absolute;
+    left: 42%;
+    top: 32%;
+    font-size: 12px;
+  }
+
+  .tableHeadCell {
+    font-size: 11px;
+    background-color: rgba(224, 224, 224, 0.2);
+  }
+
+  .tableBodyCell {
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 750px) {
+    width: 95% !important;
+  }
+}

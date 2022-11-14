@@ -1,0 +1,76 @@
+.launchStatus {
+  padding: 3.5px 8px 3.5px 8px;
+  border-radius: 40%;
+  font-size: 10px;
+}
+
+.spacex {
+  margin: auto;
+  width: 100vw;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.3);
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  width: 89% !important;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-size: 13px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+
+  .calendar {
+    font-size: 13px;
+    margin-right: 0.2rem;
+  }
+  .downArrow {
+    font-size: 15px;
+    vertical-align: bottom;
+  }
+  .filter {
+    font-size: 14px;
+    vertical-align: bottom;
+  }
+}
+
+.launchFilter {
+  position: absolute;
+  right: 12.5%;
+  top: 15%;
+  width: 10rem;
+  padding: 0.5rem;
+  background: #ffffff;
+  font-size: 14px;
+  box-shadow: 2px 5px 10px rgb(112 136 146 / 20%);
+  border-radius: 4px;
+  z-index: 1;
+  :hover {
+    background-color: rgba(224, 224, 224, 0.3);
+  }
+
+  .launchFilterValues {
+    cursor: pointer;
+    padding: 0.2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .filters {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .launchFilter {
+    right: 2.8%;
+  }
+}
